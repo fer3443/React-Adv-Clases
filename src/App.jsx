@@ -1,12 +1,9 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css'
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import { Home } from "./components/home/Home";
 
 function App() {
-  return (
-    <>
-      <h1>React Adv</h1>
-    </>
-  )
+  return <Home />;
 }
 
-export default App
+export default App;
